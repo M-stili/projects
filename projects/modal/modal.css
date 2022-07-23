@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: url(/projects/modal/hero.jpeg);
+    background-size: cover;
+    background-position: 0% 10%;
+}
+.modal-pjt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.modal-pjt h1{
+        font-size: 70px;
+        font-family:Arial, Helvetica, sans-serif;
+        color: rgb(13, 57, 74);
+        padding-bottom: 40px;
+        padding-top: 60px;
+}
+
+.modal-pjt button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    background-color: rgb(7, 173, 244);
+    color: white;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: white;
+    color:rgb(7, 173, 244) ;
+    border:2px solid rgb(7, 173, 244);
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(7, 173, 244, 0.5);
+    position: relative;
+    visibility: hidden;
+
+}
+section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+}
+section div h1{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(13, 57, 74);
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+.close-btn{
+    position: absolute;
+    bottom:75% ;
+    left: 92%;
+    font-size: 1.75rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: red;
+    transition: color 0.3s, font-size 0.3s;
+}
+.close-btn:hover {
+    font-size:2.5rem ;
+    color: rgb(233, 158, 158);
+    border: none;
+}

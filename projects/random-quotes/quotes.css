@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    padding: 10%;
+    background-color: skyblue;
+}
+.quotes{
+    margin-bottom: 80px;
+    font-size: 40px;
+    line-height: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.source{
+    margin-left: 30%;
+    font-size: 25px;
+}
+button{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    padding: 2% 4%;
+    background-color: transparent;
+    border: 1px solid black;
+    color: white;
+    font-size: 200%;
+    transition: background-color 0.5s;
+}
+
+button:hover{
+    background-color:rgba(255, 255, 255, 0.4) ;
+}

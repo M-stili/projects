@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: rgb(75, 29, 29);
+
+}
+
+body{
+    background: #333 url(/projects/bill-calculator/food-1.jpeg) center center no-repeat ;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background: url(/projects/bill-calculator/paper-pattern.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px ;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px  5px 10px 5px  rgba(0, 0, 0, 0.5);
+    padding: 5% 5% ;
+    margin-top:5vh ;
+    margin-bottom: 5vh;   
+
+}
+.header{
+    text-align: center;
+    font-size: 40px;
+
+}
+hr{
+    margin: auto;
+}
+.bill-service{
+    padding-top: 20px;
+    font-size: 17px;
+}
+#bill, #people{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#service-quality{
+    width: 150px;
+    margin-bottom: 100px;
+}
+#people{
+margin-bottom: 50px;
+}
+.button{
+    text-align: center;  
+}
+
+button{
+    padding: 20px 80px;
+    font-size: 25px;
+    border-radius: 5px;
+    color:white ;
+    background-color:rgb(75, 29, 29) ;
+
+}
+.result{
+    visibility:hidden;
+    text-align: center;
+    font-size: 25px;
+}
+.result h2, .each{
+    padding: 15px 0px;
+    font-size: 20px;
+}
+.money{
+    font-size: 50px;
+}

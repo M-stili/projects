@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bill.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Charles' Tip Calculator</div>
+        <hr>
+        <div class="bill-service">
+
+        <label for="number">How much was your bill?</label>
+        <br>
+        $<input type="number" name="number" id="bill" min="1">
+        <br>
+
+        <label for="service-quality">How Was Your Service</label>
+        <br>
+        <select name="quality" id="service-quality">
+            <option hidden disabled selected value>choose option</option>
+            <option value="0.5">5% terrible</option>
+            <option value="1">10% bad</option>
+            <option value="1.5">15% it was okay</option>
+            <option value="2">20% good</option>
+            <option value="3">30% outstanding</option>
+        </select>
+        <br>    
+
+        <label for="people">How many people are sharing the bill?</label>
+        <br>
+        <input type="number" name="people" id="people" min="1">people
+        <br>
+    </div>
+        <div class="button">
+        <button>CALCULATE</button>
+        </div>
+        <div class="result">
+            <h2>tip amount</h2>
+            <p class="money"></p>
+            <p class="each">each</p>
+        </div>
+    </div>
+
+    <script src="bill.js"></script>
+</body>
+</html>
